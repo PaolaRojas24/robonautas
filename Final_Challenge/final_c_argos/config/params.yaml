@@ -1,7 +1,0 @@
-input:
-  ros__parameters:
-    amplitude: 60.0
-    period: 1.0
-    type: 1
-    observador: 0
-    frecuencia: 0.1
