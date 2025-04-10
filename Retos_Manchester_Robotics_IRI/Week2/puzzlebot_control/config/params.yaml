@@ -1,0 +1,30 @@
+path_generator:
+  ros__parameters:
+    points:
+      - x: 0.0
+        y: 0.0
+        theta_deg: 0.0
+        mode: "v"
+        linear_speed: 0.1
+        angular_speed: 0.5
+
+      - x: 1.0
+        y: 0.0
+        theta_deg: 90.0
+        mode: "t"
+        forward_time: 4.0
+        rotate_time: 2.0
+
+      - x: 1.0
+        y: 1.0
+        theta_deg: 180.0
+        mode: "v"
+        linear_speed: 0.2
+        angular_speed: 0.6
+
+      - x: 0.0
+        y: 1.0
+        theta_deg: -90.0
+        mode: "t"
+        forward_time: 5.0
+        rotate_time: 3.0
